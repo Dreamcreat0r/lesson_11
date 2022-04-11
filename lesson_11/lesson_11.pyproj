@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>25c9a6d1-7b1d-4dbf-ac83-762f8671a545</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>lesson_11.py</StartupFile>
+    <StartupFile>02_prime_numbers.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +21,29 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="01_shapes.py" />
+    <Compile Include="02_prime_numbers.py" />
+    <Compile Include="03_log_parser.py" />
+    <Compile Include="04_error_log_decorator.py" />
     <Compile Include="lesson_11.py" />
+    <Compile Include="python_snippets\01_functional_style.py" />
+    <Compile Include="python_snippets\02_def_on_fly.py" />
+    <Compile Include="python_snippets\03_comprehensions.py" />
+    <Compile Include="python_snippets\04_iterators.py" />
+    <Compile Include="python_snippets\05_generators.py" />
+    <Compile Include="python_snippets\06_decorators.py" />
+    <Compile Include="python_snippets\06_decorators_adv.py" />
+    <Compile Include="python_snippets\07_libs_and_recipes.py" />
+    <Compile Include="python_snippets\08_practice_1.py" />
+    <Compile Include="python_snippets\08_practice_2.py" />
+    <Compile Include="python_snippets\__init__.py" />
+    <Compile Include="__init__.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="python_snippets\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="python_snippets\calc.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
