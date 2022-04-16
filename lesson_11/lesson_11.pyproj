@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>25c9a6d1-7b1d-4dbf-ac83-762f8671a545</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>02_prime_numbers.py</StartupFile>
+    <StartupFile>04_error_log_decorator.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
